@@ -88,7 +88,9 @@ main > .right{
     width:45%;
     /* background-color: hsl(277, 64%, 61%); */   
     display: inline-block;
-    z-index:5;
+    background-color: hsl(277, 64%, 61%);
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
 }
 
 main> .right > img{
@@ -98,6 +100,7 @@ main> .right > img{
     display: block;
   max-width: 100%; 
   height: 100%;
+  mix-blend-mode: multiply;
 
 }
 
